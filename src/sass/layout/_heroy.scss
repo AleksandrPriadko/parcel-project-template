@@ -1,0 +1,26 @@
+@media screen and (max-width: 767px) {
+  .heroy {
+    height: 591px;
+    background: url('../images/heroy.jpg');
+    background-position: top;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  .name {
+    position: relative;
+  }
+  .block-name {
+    position: absolute;
+    top: 360px;
+    left: 84px;
+    display: block;
+  }
+
+  .font-heroy {
+    display: block;
+    @include fontFamily($ronet, 105px, 400);
+    text-align: center;
+    line-height: 55px;
+    margin: 0;
+  }
+}

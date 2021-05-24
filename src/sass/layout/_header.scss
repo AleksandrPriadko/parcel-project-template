@@ -1,0 +1,22 @@
+@media screen and (max-width: 767px) {
+  .header {
+  }
+
+  .navigate {
+    display: flex;
+    justify-content: space-between;
+    //align-items: center;
+    padding-top: 28px;
+  }
+
+  .date {
+    @include fontFamily($garamond, 20px, bold);
+    margin: 0;
+  }
+  .menu {
+    display: block;
+    background: #ffffff;
+    padding: 0;
+    border: 0;
+  }
+}
